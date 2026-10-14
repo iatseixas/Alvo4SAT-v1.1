@@ -245,7 +245,7 @@
 .zone .zone-score{top:6px;bottom:auto}
 @media(max-width:360px){.zone-point-buttons{gap:3px;left:3px;right:3px}.zone-point-button{padding-left:3px;padding-right:11px;font-size:.95rem}.zone-point-button .point-count{font-size:.6rem;right:2px}}
 
-#proofNumber.proof-number-filled{color:var(--ok)!important;font-weight:950!important}#proofNumberModal{z-index:3000}#proofNumberModal .pro-panel{text-align:center}
+#proofNumber.proof-number-filled{color:var(--ok)!important;font-weight:950!important}#proofNumberModal{position:fixed;inset:0;z-index:3000;display:none;place-items:center;padding:20px;background:rgba(0,0,0,.82);backdrop-filter:blur(4px)}#proofNumberModal.show{display:grid}#proofNumberModal .pro-panel{width:min(430px,100%);border:1px solid #444;border-radius:12px;background:#181818;padding:22px;text-align:center;box-shadow:0 24px 70px rgba(0,0,0,.55)}#proofNumberModal h2{margin:0 0 12px;font-size:1.35rem}#proofNumberModal p{margin:0;line-height:1.5;color:#eee}#proofNumberModalClose{width:100%;min-height:44px;margin-top:18px;border-radius:8px;background:#303030;color:#fff;font-weight:900;cursor:pointer}
 
 /* Mantém os controles do alvo abaixo da tela de abertura. */
 .target{isolation:isolate}
