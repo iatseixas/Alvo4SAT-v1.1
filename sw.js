@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "alvo4sat-standard-";
-const CACHE_NAME = CACHE_PREFIX + "v1.1-r14";
+const CACHE_NAME = CACHE_PREFIX + "v1.1-r15";
 const ASSETS = [
   "./",
   "./index.html",
