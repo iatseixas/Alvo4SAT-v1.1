@@ -1,6 +1,6 @@
 const CACHE_PREFIX = "alvo4sat-standard-";
-const CACHE_NAME = CACHE_PREFIX + "v1.1-r33";
-const ASSETS = ["./icon-192.png?v=3","./icon-512.png?v=3","./icon-maskable-192.png?v=3","./icon-maskable-512.png?v=3","./icon.svg?v=3","./favicon.ico?v=3","./favicon-16.png?v=3","./favicon-32.png?v=3","./apple-touch-icon.png?v=3","./manifest.webmanifest?v=3",
+const CACHE_NAME = CACHE_PREFIX + "v1.1-r34";
+const ASSETS = ["./icon-192.png?v=4","./icon-512.png?v=4","./icon-maskable-192.png?v=4","./icon-maskable-512.png?v=4","./icon.svg?v=4","./favicon.ico?v=4","./favicon-16.png?v=4","./favicon-32.png?v=4","./apple-touch-icon.png?v=4","./manifest.webmanifest?v=4",
   "./",
   "./index.html",
   "./manifest.webmanifest",
