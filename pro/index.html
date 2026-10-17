@@ -274,7 +274,9 @@
 .test-rule-records p{margin:5px 0}
 .app-info-meta .app-developer-info{grid-column:1/-1}
 
-.developer-presentation a{color:#a5ef2d;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.developer-app-links{margin:12px 0;padding-left:22px}.developer-app-links li{margin:8px 0;line-height:1.5}.developer-presentation a:focus-visible{outline:2px solid #a5ef2d;outline-offset:3px}
+.developer-presentation a{color:#a5ef2d;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.developer-app-links{margin:12px 0;padding-left:22px}.developer-app-links li{margin:8px 0;line-height:1.5}.developer-presentation a:focus{outline:none;box-shadow:none}
+.developer-presentation a:focus-visible{text-decoration-thickness:3px;text-underline-offset:4px}
+@media(hover:none) and (pointer:coarse){.developer-presentation a:focus-visible{text-decoration-thickness:auto;text-underline-offset:auto}}
 
 /* O alvo preenche as faixas laterais e mantém a geometria de pontuação 7:10. */
 .target{width:100%!important;height:var(--target-height,560px);grid-template-rows:repeat(2,minmax(0,1fr));align-items:stretch}
